@@ -1,5 +1,5 @@
-from toolsMCB.ferramentas.cores import *
-from toolsMCB.ferramentas.functions import *
+from ferramentas.cores import *
+from ferramentas.functions import *
 
 
 def menu():
