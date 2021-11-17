@@ -1,6 +1,6 @@
-from toolsMCB.ferramentas.menu import *
-from toolsMCB.ferramentas.install import *
-from toolsMCB.scripts.admin import *
+from ferramentas.menu import *
+from ferramentas.install import *
+from scripts.admin import *
 
 
 while True:
