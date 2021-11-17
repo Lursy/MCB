@@ -1,10 +1,10 @@
 from ferramentas.menu import *
 from ferramentas.install import *
+install()
 from scripts.admin import *
 
 
 while True:
-    install()
     clear()
     menu()
     option = str(input(f'{am}//: '))
