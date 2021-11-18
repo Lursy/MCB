@@ -16,7 +16,7 @@ def adminf():
 
         # Tratamento de url
         url = str(input(f'{az}URL: {ve}'))
-        if 'https://' not in url or 'http://' not in url:
+        if 'http' not in url:
             url = 'http://' + url
         if '/' not in url[-1]:
             url = url + '/'
@@ -57,6 +57,7 @@ def adminf():
                     admin = url + palavra.rstrip().lstrip()
                     response = get(admin, headers=headers).status_code
                     if response == 200:
+                        print(vd)
                         encontrados.append(admin)
                         with open('admin.txt', 'w') as file:
                             file.write(admin + '\n')
